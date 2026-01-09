@@ -28,6 +28,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # --- CONFIG GITHUB ---
+# Assurez-vous que ces secrets sont bien configurés dans Streamlit Cloud
 GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
 REPO_NAME = st.secrets["REPO_NAME"]
 FILE_CSV = "stock_congelateur.csv"
@@ -79,13 +80,13 @@ def reset_filters():
     st.session_state.search_val = ""
     st.session_state.cat_val = "Toutes"
     st.session_state.loc_val = "Tous"
-    st.session_state.sort_mode = "alpha"
+    st.session_state.sort_mode = "newest" # Par défaut sur le plus récent
     st.session_state.last_added_id = None
 
 # --- INTERFACE ---
 st.title("❄️ Stock congélateurs")
 
-if 'sort_mode' not in st.session_state: st.session_state.sort_mode = "alpha"
+if 'sort_mode' not in st.session_state: st.session_state.sort_mode = "newest"
 if 'last_added_id' not in st.session_state: st.session_state.last_added_id = None
 
 tab1, tab_recap, tab2 = st.tabs(["📦 Stock", "📋 Récapitulatif", "⚙️ Configuration"])
@@ -105,15 +106,18 @@ with tab1:
             
             if st.form_submit_button("Ajouter"):
                 ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-               new_row = pd.DataFrame([{"Nom": n, "Catégorie": cat_a, "Contenant": cont_a, "Lieu": loc_a, "Nombre": int(q_a), "Date": ts}])
-# On place 'new_row' AVANT 'df' pour qu'il soit en haut
-df = pd.concat([new_row, df], ignore_index=True)
+                new_row = pd.DataFrame([{"Nom": n, "Catégorie": cat_a, "Contenant": cont_a, "Lieu": loc_a, "Nombre": int(q_a), "Date": ts}])
+                
+                # MODIFICATION ICI : On met la nouvelle ligne AVANT le reste du tableau
+                df = pd.concat([new_row, df], ignore_index=True)
+                
                 st.session_state.last_added_id = f"{n}_{ts}"
                 update_stock(df, f"Ajout {n}")
 
     c_s, c_sort, c_reset = st.columns([4, 1, 1])
     if "search_val" not in st.session_state: st.session_state.search_val = ""
     search = c_s.text_input("🔍 Rechercher", key="search_val", label_visibility="collapsed")
+    
     if c_sort.button("⌛"):
         modes = ["alpha", "newest", "oldest"]
         st.session_state.sort_mode = modes[(modes.index(st.session_state.sort_mode) + 1) % 3]
@@ -130,12 +134,15 @@ df = pd.concat([new_row, df], ignore_index=True)
         if f_cat != "Toutes": working_df = working_df[working_df['Catégorie'] == f_cat]
         if f_loc != "Tous": working_df = working_df[working_df['Lieu'] == f_loc]
         
+        # Gestion des tris
         if st.session_state.sort_mode == "alpha":
             working_df = working_df.sort_values(by='Nom')
         elif st.session_state.sort_mode == "oldest":
             working_df = working_df.sort_values(by=['Date_dt', 'Nom'])
-        else:
+        elif st.session_state.sort_mode == "newest":
+            # On trie par date la plus récente, mais le concat initial aide déjà
             working_df = working_df.sort_values(by=['Date_dt', 'Nom'], ascending=[False, True])
+        
         working_df = working_df.reset_index()
 
     if working_df.empty:
@@ -159,20 +166,24 @@ df = pd.concat([new_row, df], ignore_index=True)
                 st.subheader(row['Nom'])
                 st.caption(f"{LOGOS.get(row['Catégorie'], '📦')} {row['Catégorie']} | 📦 {row['Contenant']}")
                 col1, col2, col3, col4 = st.columns([1, 1, 1, 2])
+                
                 if col1.button("➖", key=f"min_{orig_idx}"):
                     if df.at[orig_idx, 'Nombre'] > 1:
                         df.at[orig_idx, 'Nombre'] -= 1
                         update_stock(df, "Moins")
+                
                 col2.markdown(f"<div class='qty-text'>{row['Nombre']}</div>", unsafe_allow_html=True)
+                
                 if col3.button("➕", key=f"plus_{orig_idx}"):
                     df.at[orig_idx, 'Nombre'] += 1
                     update_stock(df, "Plus")
+                
                 if col4.button("🍽️ Fini", key=f"fin_{orig_idx}"):
                     df = df.drop(orig_idx).reset_index(drop=True)
                     st.session_state.last_added_id = None
                     update_stock(df, "Fini")
 
-# --- RÉCAPITULATIF AVEC STATS ---
+# --- RÉCAPITULATIF ---
 with tab_recap:
     st.subheader("📋 Liste par congélateur")
     lieu_recap = st.radio("Choisir le lieu :", ["Cuisine", "Buanderie"], horizontal=True, key="radio_recap")
@@ -182,7 +193,6 @@ with tab_recap:
         recap_df = recap_df[recap_df['Lieu'] == lieu_recap]
         recap_df['Date_dt'] = pd.to_datetime(recap_df['Date'], errors='coerce', dayfirst=True)
         
-        # Calcul des statistiques d'ancienneté pour le lieu choisi
         if not recap_df.empty:
             now = datetime.now()
             nb_rouge = len(recap_df[pd.notna(recap_df['Date_dt']) & ((now - recap_df['Date_dt']).dt.days >= 180)])
@@ -214,6 +224,7 @@ with tab_recap:
     else:
         st.info("Le stock est vide.")
 
+# --- CONFIGURATION ---
 with tab2:
     st.subheader("🛠️ Configuration")
     with st.form("conf_cont", clear_on_submit=True):
