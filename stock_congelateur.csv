@@ -1,4 +1,5 @@
-Nom,Catégorie,Nombre,Lieu,Date,Contenant
-Viande pot au feu nerveux  332g,Surgelé,1,Cuisine,2026-01-17 18:54:22,Sachet
-Viande pot au feu. Jumeau  316g,Surgelé,1,Cuisine,2026-01-17 18:53:36,Sachet
-Viande côte de porc  ,Surgelé,2,Cuisine,2026-01-17 18:50:52,Sachet
+Nom,Catégorie,Contenant,Lieu,Nombre,Date
+Viande haut de cuisse poulet,Surgelé,Sachet,Cuisine,4,2026-01-17 18:58:49
+Viande pot au feu nerveux  332g,Surgelé,Sachet,Cuisine,1,2026-01-17 18:54:22
+Viande pot au feu. Jumeau  316g,Surgelé,Sachet,Cuisine,1,2026-01-17 18:53:36
+Viande côte de porc  ,Surgelé,Sachet,Cuisine,2,2026-01-17 18:50:52
