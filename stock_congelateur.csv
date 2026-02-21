@@ -1,79 +1,80 @@
-Nom,Catégorie,Nombre,Unité,Lieu,Date,Contenant
-Haricots beurre picard ,Légumes ,1,Portions,Congélateur,2026-02-20 09:11:29,Sachet
-Choux Bruxelles picard ,Légumes ,1,Portions,Congélateur,2026-02-20 09:10:56,Bocaux 
-Épinards picard ,Légumes ,1,Portions,Congélateur,2026-02-20 09:10:29,Sachet
-Couscous  picard ,Légumes ,2,Portions,Congélateur,2026-02-20 09:10:01,Sachet
-Colin tranches picard ,Poisson ,1,Portions,Congélateur,2026-02-20 09:09:20,Carton
-Steak Leclerc ,Viande ,1,Portions,Congélateur,2026-02-19 09:55:40,Sachet
-Choux fleurs  Leclerc ,Légumes ,1,Portions,Congélateur,2026-02-18 12:19:02,Sachet
-Café senseo,Autre,2,Portions,Placard étagère haut ,2026-02-18 08:29:37,Bocaux 
-Dos de merlu ,Poisson ,4,Pièces,Congélateur,2026-02-14 09:43:02,Sachet
-Dos de merlu Leclerc ,Poisson ,2,Pièces,Congélateur,2026-02-14 09:42:15,Sachet
-Petits pois  340g,Légumes ,1,Portions,Placard côté ,2026-02-11 09:35:15,Bocaux 
-Boudins noir aux oignons ,Viande ,3,Portions,Congélateur,2026-02-11 09:00:01,Sachet
-Filet de canard ,Viande ,3,Portions,Congélateur,2026-02-11 08:58:18,Sachet
-Flocons d'avoine,Légumes ,1,Portions,Placard étagère haut ,2026-02-11 08:56:54,Sachet
-Jus de citron vert ,Autre,2,Portions,Placard étagère bas,2026-02-11 08:55:52,Bocaux 
-Petits pois 250g,Légumes ,1,Portions,Placard côté ,2026-02-11 08:55:25,Bocaux 
-Morue crue,Poisson ,4,Portions,Congélateur,2026-02-07 10:01:05,Sachet
-Flocons d'avoine,Autre,1,Portions,Placard étagère haut ,2026-02-03 10:01:53,Bocaux 
-Miel petit ,Autre,3,Portions,Garage ,2026-02-02 07:57:12,Bocaux 
-Miel ,Autre,1,kg,Garage ,2026-02-02 07:56:46,Bocaux 
-Flageolets  petite ,Légumes ,1,Portions,Garage ,2026-02-02 07:56:21,Conserve
-Tomates entières  grosse,Légumes ,1,Portions,Garage ,2026-02-02 07:55:47,Conserve
-Petits pois petite,Légumes ,1,Portions,Garage ,2026-02-02 07:55:05,Boîte  fer
-Cornichons ,Légumes ,1,Portions,Garage ,2026-02-02 07:54:15,Bocaux 
-Haricots verts,Légumes ,4,Portions,Garage ,2026-02-02 07:53:47,Conserve
-Sardines,Poisson ,2,Portions,Placard étagère bas,2026-02-02 07:52:21,Conserve
-Petits pois,Légumes ,1,Portions,Placard étagère bas,2026-02-02 07:50:52,Bocaux 
-Bourguignon joues bœuf  cuisiné,Viande ,2,Portions,Congélateur,2026-01-29 09:42:03,Boîte verre couvercle bleu/ vert
- Palmiers feuilletés ,Dessert ,1,Portions,Placard étagère haut ,2026-01-27 13:09:04,Carton
-Ricoré ,Autre,2,Portions,Placard étagère haut ,2026-01-26 09:19:51,Sachet
-Chicorée liquide ,Autre,2,Portions,Placard étagère haut ,2026-01-26 09:19:20,Flacon
-Biscottes ,Autre,6,Portions,Placard côté ,2026-01-26 08:44:22,Carton
-Concentré tomates petites boîtes ,Autre,3,Portions,Placard étagère bas,2026-01-26 08:43:43,Conserve
-Crevettes Leclerc ,Poisson ,1,Portions,Congélateur,2026-01-26 08:41:53,Sachet
-Choux-fleurs  leclerc,Légumes ,1,Portions,Congélateur,2026-01-26 08:40:31,Sachet
-Lentilles ,Plat cuisiné,1,Portions,Placard côté ,2026-01-24 13:49:30,Conserve
-Miel,Autre,1,Portions,Placard étagère haut ,2026-01-24 13:26:20,Bocaux 
-Purée mousline,Autre,2,Portions,Placard côté ,2026-01-24 13:23:56,Carton
-Champignons petite boîte ,Légumes ,1,Portions,Placard côté ,2026-01-24 13:22:51,Conserve
-Biscottes,Autre,2,Portions,Placard côté ,2026-01-24 13:22:11,Carton
-Soupe de poisson ,Plat cuisiné,2,Portions,Placard côté ,2026-01-24 13:20:02,Conserve
-Pulpe de tomates  petite,Autre,1,Portions,Placard côté ,2026-01-24 13:18:46,Bocaux 
-Tomates entières grosse boîte ,Légumes ,1,Portions,Placard côté ,2026-01-24 13:18:03,Conserve
-Quinoa entamé ,Autre,1,Portions,Placard étagère bas,2026-01-24 13:16:37,Carton
-Nouilles,Autre,1,Portions,Placard étagère bas,2026-01-24 13:15:23,Sachet
-Pesto rouge,Autre,1,Portions,Placard étagère bas,2026-01-24 13:14:06,Bocaux 
-Pesto verde,Autre,1,Portions,Placard étagère bas,2026-01-24 13:13:42,Bocaux 
-Purée de tomates ,Autre,1,Portions,Placard étagère bas,2026-01-24 13:13:12,Carton
-Maquereaux ,Poisson ,1,Portions,Placard étagère bas,2026-01-24 13:11:01,Conserve
-Thon ,Poisson ,2,Portions,Placard étagère bas,2026-01-24 13:10:31,Conserve
-Ketchup,Autre,1,Portions,Placard étagère bas,2026-01-24 13:09:49,Flacon
-Moutarde mi forte,Autre,1,Portions,Placard étagère bas,2026-01-24 13:09:10,Bocaux 
-Moutarde forte,Autre,1,Portions,Placard étagère bas,2026-01-24 13:08:30,Bocaux 
-Royco tomate,Autre,2,Portions,Placard étagère bas,2026-01-24 13:05:01,Carton
-Riz rond dessert ,Autre,1,Portions,Placard étagère bas,2026-01-24 13:04:29,Sachet
-Riz camargue parfumé,Autre,1,Portions,Placard étagère bas,2026-01-24 13:03:42,Sachet
-Quinoa,Autre,1,Portions,Placard étagère bas,2026-01-24 13:02:42,Carton
-Sucre morceaux ,Autre,1,Portions,Placard étagère bas,2026-01-24 13:01:35,Boîte  fer
-Soupe royco tomates,Autre,2,Portions,Placard  bas,2026-01-24 12:44:19,Carton
-Flammkuche picard ,Surgelé,2,Portions,Congélateur,2026-01-19 10:34:01,Carton
-Persil picard,Surgelé,1,Portions,Congélateur,2026-01-19 07:55:16,Carton
-Ciboulettes  picard ,Surgelé,2,Portions,Congélateur,2026-01-19 07:54:45,Carton
-Allumettes de jambon Leclerc ,Surgelé,2,Portions,Congélateur,2026-01-19 07:52:22,Sachet
-Frites picard,Légumes ,1,Portions,Congélateur,2026-01-19 07:47:49,Sachet
-Duo de poivrons picard ,Légumes ,1,Portions,Congélateur,2026-01-19 07:47:18,Sachet
-Blancs de poireaux,Légumes ,3,Portions,Congélateur,2026-01-19 07:46:25,Sachet
-Epinards  picard,Légumes ,1,Portions,Congélateur,2026-01-19 07:43:25,Sachet
-Haricots plats picard,Légumes ,1,Portions,Congélateur,2026-01-19 07:41:53,Sachet
- Pâte feuilletée ,Surgelé,1,Portions,Congélateur,2026-01-19 07:40:38,Sachet
-Cuisses de pintade picard,Viande ,2,Portions,Congélateur,2026-01-19 07:39:02,Carton
-Saint Jacques par 8,Poisson ,3,Portions,Congélateur,2026-01-19 07:33:42,Tupperware
-Filets de truitepar 2,Poisson ,2,Portions,Congélateur,2026-01-19 07:32:19,Sachet
-Prunes jaunes,Fruits ,1,Portions,Congélateur,2026-01-19 07:28:36,Sachet
-Mirabelles pour tarte,Fruits ,1,Portions,Congélateur,2026-01-19 07:26:27,Sachet
-Andouillettes ,Viande ,1,Portions,Congélateur,2026-01-19 07:23:33,Sachet
-Jarrets de bœuf ,Viande ,1,Portions,Congélateur,2026-01-19 07:21:01,Sachet
-Nerveux  332g pot au feu,Viande ,1,Portions,Congélateur,2026-01-17 18:54:22,Sachet
- Jumeau  316g pot au feu,Viande ,1,Portions,Congélateur,2026-01-17 18:53:36,Sachet
+Nom,Catégorie,Contenant,Lieu,Nombre,Unité,Date
+Lardons ,Viande ,Sachet,Congélateur,2,Portions,2026-02-21 12:08:14
+Haricots beurre picard ,Légumes ,Sachet,Congélateur,1,Portions,2026-02-20 09:11:29
+Choux Bruxelles picard ,Légumes ,Bocaux ,Congélateur,1,Portions,2026-02-20 09:10:56
+Épinards picard ,Légumes ,Sachet,Congélateur,1,Portions,2026-02-20 09:10:29
+Couscous  picard ,Légumes ,Sachet,Congélateur,2,Portions,2026-02-20 09:10:01
+Colin tranches picard ,Poisson ,Carton,Congélateur,1,Portions,2026-02-20 09:09:20
+Steak Leclerc ,Viande ,Sachet,Congélateur,1,Portions,2026-02-19 09:55:40
+Choux fleurs  Leclerc ,Légumes ,Sachet,Congélateur,1,Portions,2026-02-18 12:19:02
+Café senseo,Autre,Bocaux ,Placard étagère haut ,2,Portions,2026-02-18 08:29:37
+Dos de merlu ,Poisson ,Sachet,Congélateur,4,Pièces,2026-02-14 09:43:02
+Dos de merlu Leclerc ,Poisson ,Sachet,Congélateur,2,Pièces,2026-02-14 09:42:15
+Petits pois  340g,Légumes ,Bocaux ,Placard côté ,1,Portions,2026-02-11 09:35:15
+Boudins noir aux oignons ,Viande ,Sachet,Congélateur,3,Portions,2026-02-11 09:00:01
+Filet de canard ,Viande ,Sachet,Congélateur,3,Portions,2026-02-11 08:58:18
+Flocons d'avoine,Légumes ,Sachet,Placard étagère haut ,1,Portions,2026-02-11 08:56:54
+Jus de citron vert ,Autre,Bocaux ,Placard étagère bas,2,Portions,2026-02-11 08:55:52
+Petits pois 250g,Légumes ,Bocaux ,Placard côté ,1,Portions,2026-02-11 08:55:25
+Morue crue,Poisson ,Sachet,Congélateur,4,Portions,2026-02-07 10:01:05
+Flocons d'avoine,Autre,Bocaux ,Placard étagère haut ,1,Portions,2026-02-03 10:01:53
+Miel petit ,Autre,Bocaux ,Garage ,3,Portions,2026-02-02 07:57:12
+Miel ,Autre,Bocaux ,Garage ,1,kg,2026-02-02 07:56:46
+Flageolets  petite ,Légumes ,Conserve,Garage ,1,Portions,2026-02-02 07:56:21
+Tomates entières  grosse,Légumes ,Conserve,Garage ,1,Portions,2026-02-02 07:55:47
+Petits pois petite,Légumes ,Boîte  fer,Garage ,1,Portions,2026-02-02 07:55:05
+Cornichons ,Légumes ,Bocaux ,Garage ,1,Portions,2026-02-02 07:54:15
+Haricots verts,Légumes ,Conserve,Garage ,4,Portions,2026-02-02 07:53:47
+Sardines,Poisson ,Conserve,Placard étagère bas,2,Portions,2026-02-02 07:52:21
+Petits pois,Légumes ,Bocaux ,Placard étagère bas,1,Portions,2026-02-02 07:50:52
+Bourguignon joues bœuf  cuisiné,Viande ,Boîte verre couvercle bleu/ vert,Congélateur,2,Portions,2026-01-29 09:42:03
+ Palmiers feuilletés ,Dessert ,Carton,Placard étagère haut ,1,Portions,2026-01-27 13:09:04
+Ricoré ,Autre,Sachet,Placard étagère haut ,2,Portions,2026-01-26 09:19:51
+Chicorée liquide ,Autre,Flacon,Placard étagère haut ,2,Portions,2026-01-26 09:19:20
+Biscottes ,Autre,Carton,Placard côté ,6,Portions,2026-01-26 08:44:22
+Concentré tomates petites boîtes ,Autre,Conserve,Placard étagère bas,3,Portions,2026-01-26 08:43:43
+Crevettes Leclerc ,Poisson ,Sachet,Congélateur,1,Portions,2026-01-26 08:41:53
+Choux-fleurs  leclerc,Légumes ,Sachet,Congélateur,1,Portions,2026-01-26 08:40:31
+Lentilles ,Plat cuisiné,Conserve,Placard côté ,1,Portions,2026-01-24 13:49:30
+Miel,Autre,Bocaux ,Placard étagère haut ,1,Portions,2026-01-24 13:26:20
+Purée mousline,Autre,Carton,Placard côté ,2,Portions,2026-01-24 13:23:56
+Champignons petite boîte ,Légumes ,Conserve,Placard côté ,1,Portions,2026-01-24 13:22:51
+Biscottes,Autre,Carton,Placard côté ,2,Portions,2026-01-24 13:22:11
+Soupe de poisson ,Plat cuisiné,Conserve,Placard côté ,2,Portions,2026-01-24 13:20:02
+Pulpe de tomates  petite,Autre,Bocaux ,Placard côté ,1,Portions,2026-01-24 13:18:46
+Tomates entières grosse boîte ,Légumes ,Conserve,Placard côté ,1,Portions,2026-01-24 13:18:03
+Quinoa entamé ,Autre,Carton,Placard étagère bas,1,Portions,2026-01-24 13:16:37
+Nouilles,Autre,Sachet,Placard étagère bas,1,Portions,2026-01-24 13:15:23
+Pesto rouge,Autre,Bocaux ,Placard étagère bas,1,Portions,2026-01-24 13:14:06
+Pesto verde,Autre,Bocaux ,Placard étagère bas,1,Portions,2026-01-24 13:13:42
+Purée de tomates ,Autre,Carton,Placard étagère bas,1,Portions,2026-01-24 13:13:12
+Maquereaux ,Poisson ,Conserve,Placard étagère bas,1,Portions,2026-01-24 13:11:01
+Thon ,Poisson ,Conserve,Placard étagère bas,2,Portions,2026-01-24 13:10:31
+Ketchup,Autre,Flacon,Placard étagère bas,1,Portions,2026-01-24 13:09:49
+Moutarde mi forte,Autre,Bocaux ,Placard étagère bas,1,Portions,2026-01-24 13:09:10
+Moutarde forte,Autre,Bocaux ,Placard étagère bas,1,Portions,2026-01-24 13:08:30
+Royco tomate,Autre,Carton,Placard étagère bas,2,Portions,2026-01-24 13:05:01
+Riz rond dessert ,Autre,Sachet,Placard étagère bas,1,Portions,2026-01-24 13:04:29
+Riz camargue parfumé,Autre,Sachet,Placard étagère bas,1,Portions,2026-01-24 13:03:42
+Quinoa,Autre,Carton,Placard étagère bas,1,Portions,2026-01-24 13:02:42
+Sucre morceaux ,Autre,Boîte  fer,Placard étagère bas,1,Portions,2026-01-24 13:01:35
+Soupe royco tomates,Autre,Carton,Placard  bas,2,Portions,2026-01-24 12:44:19
+Flammkuche picard ,Surgelé,Carton,Congélateur,2,Portions,2026-01-19 10:34:01
+Persil picard,Surgelé,Carton,Congélateur,1,Portions,2026-01-19 07:55:16
+Ciboulettes  picard ,Surgelé,Carton,Congélateur,2,Portions,2026-01-19 07:54:45
+Allumettes de jambon Leclerc ,Surgelé,Sachet,Congélateur,2,Portions,2026-01-19 07:52:22
+Frites picard,Légumes ,Sachet,Congélateur,1,Portions,2026-01-19 07:47:49
+Duo de poivrons picard ,Légumes ,Sachet,Congélateur,1,Portions,2026-01-19 07:47:18
+Blancs de poireaux,Légumes ,Sachet,Congélateur,3,Portions,2026-01-19 07:46:25
+Epinards  picard,Légumes ,Sachet,Congélateur,1,Portions,2026-01-19 07:43:25
+Haricots plats picard,Légumes ,Sachet,Congélateur,1,Portions,2026-01-19 07:41:53
+ Pâte feuilletée ,Surgelé,Sachet,Congélateur,1,Portions,2026-01-19 07:40:38
+Cuisses de pintade picard,Viande ,Carton,Congélateur,2,Portions,2026-01-19 07:39:02
+Saint Jacques par 8,Poisson ,Tupperware,Congélateur,3,Portions,2026-01-19 07:33:42
+Filets de truitepar 2,Poisson ,Sachet,Congélateur,2,Portions,2026-01-19 07:32:19
+Prunes jaunes,Fruits ,Sachet,Congélateur,1,Portions,2026-01-19 07:28:36
+Mirabelles pour tarte,Fruits ,Sachet,Congélateur,1,Portions,2026-01-19 07:26:27
+Andouillettes ,Viande ,Sachet,Congélateur,1,Portions,2026-01-19 07:23:33
+Jarrets de bœuf ,Viande ,Sachet,Congélateur,1,Portions,2026-01-19 07:21:01
+Nerveux  332g pot au feu,Viande ,Sachet,Congélateur,1,Portions,2026-01-17 18:54:22
+ Jumeau  316g pot au feu,Viande ,Sachet,Congélateur,1,Portions,2026-01-17 18:53:36
